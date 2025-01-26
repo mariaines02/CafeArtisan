@@ -21,7 +21,7 @@ function App() {
       {/* About Section */}
       <About />
       {/* Separator */}
-      <div className="relative w-full h-16 bg-gray-100">
+      <div className="relative w-full h-16 bg-gray-50 hidden md:block">
         <svg
           className="absolute bottom-0 w-full"
           xmlns="http://www.w3.org/2000/svg"
@@ -40,7 +40,7 @@ function App() {
       {/* Feedback Section */}
       <Feedback />
       {/* Separator */}
-      <div className="relative w-full h-16 bg-gray-100">
+      <div className="relative w-full h-16 bg-gray-50 hidden md:block">
         <svg
           className="absolute bottom-0 w-full"
           xmlns="http://www.w3.org/2000/svg"

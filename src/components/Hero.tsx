@@ -43,18 +43,19 @@ export function Hero() {
             </p>
           </div>
         </div>
-        <div className="absolute bottom-6 mb-2 right-6 ">
-          <a
-            href="#menu"
-            className="inline-block bg-amber-900/90 backdrop-blur-sm text-white px-10 py-4 rounded-full hover:bg-amber-700 transition-all duration-300 text-base md:text-lg hover:shadow-xl transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
-            aria-label="Explore Our Menu"
-          >
-            <span className="flex items-center justify-center">
-              <FontAwesomeIcon icon={faBars} className="w-6 h-6 mr-2" />
-              Explore Our Menu
-            </span>
-          </a>
-        </div>
+        <div className="absolute bottom-6 right-6 md:right-6 md:left-auto md:transform-none left-1/2 transform -translate-x-1/2 md:translate-x-0">
+  <a
+    href="#menu"
+    className="inline-block bg-amber-900/90 backdrop-blur-sm text-white px-10 py-4 rounded-full hover:bg-amber-700 transition-all duration-300 text-base md:text-lg hover:shadow-xl transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+    aria-label="Explore Our Menu"
+  >
+    <span className="flex items-center justify-center">
+      <FontAwesomeIcon icon={faBars} className="w-6 h-6 mr-2" />
+      Explore Our Menu
+    </span>
+  </a>
+</div>
+
       </div>
     </section>
   );
