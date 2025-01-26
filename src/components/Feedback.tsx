@@ -119,7 +119,7 @@ export function Feedback() {
         <div className="mt-16 text-center">
           <a
             href="#contact"
-            className="inline-block bg-amber-600/90 backdrop-blur-sm text-white px-10 py-4 rounded-full hover:bg-amber-700 transition-all duration-300 text-base md:text-lg hover:shadow-xl transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
+            className="inline-block bg-amber-700/90 backdrop-blur-sm text-white px-10 py-4 rounded-full hover:bg-amber-700 transition-all duration-300 text-base md:text-lg hover:shadow-xl transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2"
           >
             <span className="flex items-center justify-center">
               Share Your Feedback
