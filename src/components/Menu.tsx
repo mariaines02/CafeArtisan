@@ -35,7 +35,7 @@ export function Menu() {
       name: "Cookies",
       price: "2.80 €",
       description: "Crispy and chewy cookies with rich chocolate chunks.",
-      image: "/menu/cookies.PNG",
+      image: "/menu/cookies.png",
     },
     {
       name: "Cheesecake",
